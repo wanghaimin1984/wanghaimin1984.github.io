@@ -1,8 +1,49 @@
-<p>Hello 大家好</p>
-<p>我是王海敏，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
-
-<ul>
-  <li> <a href="https://www.zhihu.com/people/AJLoveChina">知乎</a> </li>
-  <li> <a href="http://hejie.nigeerhuo.com">我的博客(已经不更细了,现在在知乎写文章)</a> </li>
-</ul>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>爱尚商品库存</title>
+    <style>
+        body { font-family: Arial; margin: 20px }
+        table { width: 100%; border-collapse: collapse }
+        th, td { padding: 12px; border-bottom: 1px solid #ddd }
+        th { background: #f8f8f8 }
+        .low { color: #e74c3c }
+        .stock { font-weight: bold }
+    </style>
+</head>
+<body>
+    <h2>商品库存清单</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>商品ID</th>
+                <th>名称</th>
+                <th>库存</th>
+                <th>单价</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1001</td>
+                <td>无线鼠标</td>
+                <td class="stock">85</td>
+                <td>¥99</td>
+            </tr>
+            <tr>
+                <td>1002</td>
+                <td>机械键盘</td>
+                <td class="stock low">5</td>
+                <td>¥299</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>蓝牙耳机</td>
+                <td class="stock">0</td>
+                <td>¥159</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
